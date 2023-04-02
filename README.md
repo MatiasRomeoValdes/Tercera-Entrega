@@ -1,4 +1,4 @@
-# Tercera-Entrega creado por Claudio Gana y Matias Romeo
+# Tercera-Entrega creado por Claudio Gana y Matias Rome
  
 Proyecto Api mas char.js
 
