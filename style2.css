@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+}
+
+.maestro {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .contenedor {
+    margin-top: 10%;
+    float: left;
+  }
+  
+  button {
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  canvas {
+    float: right;
+    width: 80%;
+
+  }
+  
+  .grafico{
+    margin-left: 5%;
+    width: 80%;
+    
+  }
+
+  .texto{
+    text-align: center;
+  }

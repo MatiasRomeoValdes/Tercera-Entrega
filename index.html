@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indicadores</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <div class="texto">
+    <h1>Indicadores economicos</h1>
+    <h2>grafico</h2>
+    <p>Variacion del valor de distintas monedas a pesos chileno el ultimo mes</p>
+  </div>
+
+  
+
+  <div class="maestro">
+    <div class="contenedor">
+      <h3>Monedas</h3>
+      <button id="dolar" value="dolar">dolar</button>
+      <button id="uf" value="uf">uf</button>
+      <button id="bitcoin" value="bitcoin">bitcoin</button>
+      <button id="euro" value="euro">euro</button>
+    
+    </div>  
+  
+    <div class="grafico">
+      <canvas id='indicators'></canvas>
+    </div>
+
+
+  </div>
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src='./index.js' type='module'></script>
+
+</html>
